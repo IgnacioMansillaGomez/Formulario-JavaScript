@@ -9,18 +9,19 @@ Index
 - [Built with](#built-with)
 - [Author](#author)
 
+### Screenshot
+
+![](Formulario.png)
+
 ### Links
 
-- [Solution URL](https://ignaciomansillagomez.github.io/Form-Js/)
+- [Solution URL](https://ignaciomansillagomez.github.io/Formulario-JavaScript/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- SASS
-- Flexbox
 - JavaScript
-- Mobile-first workflow
 
 ## Author
 
