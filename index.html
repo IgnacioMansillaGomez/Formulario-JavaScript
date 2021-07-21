@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" class="formulario" name="formulario" id="formulario">
+        <div class="input__container">
+          <input
+            type="text"
+            class="nombre"
+            name="txtNombre"
+            id="txtNombre"
+            placeholder="Nombre"
+          />
+          <input
+            type="email"
+            class="email"
+            name="txtCorreo"
+            id="txtEmail"
+            placeholder="Correo"
+          />
+          <div class="sexos">
+            <input type="radio" name="sexo" id="rbtHombre" />
+            <label for="rbtHombre" class="lblHombre">Hombre</label>
+            <input type="radio" name="sexo" id="rbtMujer" />
+            <label for="rbtMujer" class="lblMujer">Mujer</label>
+            <input type="radio" name="sexo" id="rbtOtro" />
+            <label for="rbtOtro" class="lblOtro">Otro</label>
+          </div>
+          <div class="terminos">
+            <input type="checkbox" name="terminos" id="terminos" />
+            <label for="terminos">Acepto Terminos y Condiciones</label>
+          </div>
+          <ul class="error" id="error"></ul>
+        </div>
+        <input type="submit" class="btn" value="Registrarse" />
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
